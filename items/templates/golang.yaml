@@ -148,7 +148,7 @@ spec:
       if: ${{ parameters.kube == true }}
       input:
         targetPath: ./kube
-        url: https://github.com/devxp-tech/backstage-catalog/tree/main/devxp/skeleton/kubernetes/apps/kustomize
+        url: https://github.com/katakam/catalog/tree/main/items/skeleton/kubernetes/apps/kustomize/
         values:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}
@@ -160,7 +160,7 @@ spec:
       action: publish:github:pull-request
       if: ${{ parameters.kube == true }}
       input:
-        repoUrl: github.com?repo=gitops&owner=devxp-tech
+        repoUrl: github.com?repo=gitops&owner=katakam
         branchName: create-${{ parameters.component_id }}
         title: ':robot: [backstage-bot] Create new App ${{ parameters.component_id }}'
         description: |

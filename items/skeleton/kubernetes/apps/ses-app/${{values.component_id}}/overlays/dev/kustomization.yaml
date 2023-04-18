@@ -6,11 +6,11 @@ helmCharts:
 - name: devxp-app
   releaseName: devxp-app
   version: 0.1.39
-  repo: https://devxp-tech.github.io/helm-charts
+  repo: https://github.com/katakam/helm-charts
   valuesInline:
     name: ${{values.component_id}}
     image:
-      repository: ghcr.io/devxp-tech/${{values.component_id}}
+      repository: ghcr.io/katakam/${{values.component_id}}
       tag: latest
     autoscaling:
       enabled: ${{values.autoscaling}}
