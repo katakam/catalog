@@ -7,11 +7,11 @@ metadata:
     - lab
     - frontend
   links:
-    - url: https://lab.diegoluisi.eti.br
+    - url: http://127.0.0.1:62031/
       title: System
       icon: dashboard
   annotations:
-    github.com/project-slug: devxp-tech/lab
+    github.com/project-slug: katakam/lab
     backstage.io/kubernetes-namespace: lab
 spec:
   type: system
