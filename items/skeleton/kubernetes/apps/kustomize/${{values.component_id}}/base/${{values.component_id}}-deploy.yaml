@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
       - name: ${{values.component_id}}
-        image: diegoluisi/${{values.component_id}}:latest
+        image: katakam/${{values.component_id}}:latest
         imagePullPolicy: IfNotPresent
         resources:
           requests:
