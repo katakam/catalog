@@ -112,7 +112,7 @@ spec:
       action: fetch:template
       cookiecutterCompat: true
       input:
-        url: https://github.com/katakam/template-app-go
+        url: https://github.com/katakam/template-golang
         #copyWithoutRender:
         #  - .github/workflows/*
         values:
