@@ -92,7 +92,7 @@ spec:
           # New project: ${{ parameters.system }}
           ${{ parameters.description if parameters.description }}
         sourcePath: system
-        targetPath: devxp/systems
+        targetPath: items/systems
 
     # - id: register
     #   name: Register Application in Catalog

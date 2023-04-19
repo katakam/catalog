@@ -443,7 +443,7 @@ spec:
       if: ${{ parameters.kubernetes.status == true }}
       input:
         targetPath: ./kubernetes
-        url: https://github.com/katakam/catalog/tree/main/items/skeleton/kubernetes/apps/devxp-app/
+        url: https://github.com/katakam/catalog/tree/main/items/skeleton/kubernetes/apps/ses-app/
         values:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}

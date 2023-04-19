@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: DS
-  description: DS
+  name: DigitalServices
+  description: Digtal Services Group
   links:
     - url: http://www.dummy.io/
       title: Website
@@ -11,8 +11,8 @@ metadata:
 spec:
   type: organization
   profile:
-    displayName: DS
-    email: it@ds.io
+    displayName: Digital Services
+    email: ses@equinix.com
     # picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
   children: [group:engineering]
 
