@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
 - ../../base
 images:
-- name: diegoluisi/${{values.component_id}}
+- name: katakam/${{values.component_id}}
   newTag: latest

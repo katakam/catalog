@@ -83,7 +83,7 @@ spec:
             allowedHosts:
               - github.com
             allowedOwners:
-              - devxp-tech
+              - katakam
 
     - title: Infrastructure
       properties:
